@@ -4,7 +4,7 @@
     "path": "sprites/spr_pared/spr_pared.yy",
   },
   "solid": true,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

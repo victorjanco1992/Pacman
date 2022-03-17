@@ -11,4 +11,5 @@ global.Power = false;
 global.Bonos = false;
 global.Golpe = false;
 
-alarm[0] = room_speed * 10;
+alarm[0] = room_speed * 10; //crear bono
+alarm[1] = room_speed * 20; //aumentar la velocidad de nivel
