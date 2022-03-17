@@ -1,5 +1,21 @@
 /// @description Inteligencia artificial
-// You can write your code in this editor
+
+//reiniciar enemigo cuando el jugador muere
+
+if global.Golpe
+	{
+		speed = 0;
+		vspeed = 0;
+		hspeed = 0;
+		visible = false;
+		x = xstart;
+		y = ystart;
+		exit;
+	}
+else
+	{
+		visible = true;
+	}
 
 //actuar de manera aleatoria
 

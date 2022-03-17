@@ -1,7 +1,9 @@
 /// @description obtener el poder
+audio_play_sound(snd_comiendo,10,false); //sonido,prioridad,repeticion
 alarm[0] = room_speed * 5;
 global.Puntos +=50;
 global.Power = true;
+
 
 with(obj_enemy)
 	{

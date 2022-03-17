@@ -1,6 +1,6 @@
 /// @description configurar el enemigo
-// You can write your code in this editor
 
+randomize();
 sprite_index = spr_enemy;
 image_speed = 0;
 

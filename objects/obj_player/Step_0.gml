@@ -1,5 +1,5 @@
 /// @description  movimientos y sprite etc
-if (global.Golpe) exit;
+if (global.Golpe) or audio_is_playing(snd_intro) exit;
 // Movimientos del personaje
 if keyboard_check(vk_right) && place_free(x+1,y) && place_snapped(32,32) //derecha
 	{

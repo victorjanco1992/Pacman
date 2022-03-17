@@ -3,6 +3,7 @@
 if (other.sprite_index == spr_enemy_scared)
 	{
 		global.Puntos += 200;
+		audio_play_sound(snd_enemy_muere,10,false); //sonido,prioridad,repeticion
 		
 		with(other)
 			{
@@ -17,6 +18,8 @@ if (other.sprite_index == spr_enemy_scared)
 else
 if !(global.Golpe)
 	{
+		audio_stop_all();
+		audio_play_sound(snd_dead,10,false); //sonido,prioridad,repeticion
 		speed = 0;
 		global.Vidas -= 1;
 		sprite_index = spr_player_dead;
