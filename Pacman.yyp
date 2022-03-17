@@ -6,6 +6,7 @@
     {"id":{"name":"spr_enemy_scared","path":"sprites/spr_enemy_scared/spr_enemy_scared.yy",},"order":10,},
     {"id":{"name":"spr_point","path":"sprites/spr_point/spr_point.yy",},"order":5,},
     {"id":{"name":"spr_powerpoint","path":"sprites/spr_powerpoint/spr_powerpoint.yy",},"order":6,},
+    {"id":{"name":"scr_afuera","path":"scripts/scr_afuera/scr_afuera.yy",},"order":0,},
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},"order":9,},
     {"id":{"name":"spr_bonus","path":"sprites/spr_bonus/spr_bonus.yy",},"order":7,},
     {"id":{"name":"obj_pared","path":"objects/obj_pared/obj_pared.yy",},"order":1,},

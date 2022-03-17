@@ -1,5 +1,5 @@
 /// @description obtener el poder
-
+alarm[0] = room_speed * 5;
 global.Puntos +=50;
 global.Power = true;
 
@@ -10,7 +10,7 @@ with(obj_enemy)
 		image_index = 0;
 		v = 2;
 		speed = 2;
-	} //;
+	} 
 	
 with(other)
 	{

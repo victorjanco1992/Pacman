@@ -1,6 +1,6 @@
 /// @description golpe o ataque?
 
-if (global.Power)
+if (other.sprite_index == spr_enemy_scared)
 	{
 		global.Puntos += 200;
 		
